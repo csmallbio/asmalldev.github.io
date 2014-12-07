@@ -101,7 +101,7 @@
 	.paragraph_wrapper p
 	{
 		color: #4A4A4A;
-		font-size: initial;
+		font-size: 1.1em;
 	}
 
 	.mini
@@ -1350,7 +1350,7 @@
 		margin-right: auto;
 		margin-left: auto;
 		padding-left: 0em;
-		font-size: 1em;
+		font-size: .9em;
 		float: none;
 	}
 	
@@ -1370,8 +1370,8 @@
 	
 	#menu ul li a
 	{
-		padding-top: .7em;
-		padding-bottom: .7em;
+		padding-top: 0;
+		padding-bottom: 0;
 		padding-left: .2em;
 		padding-right: .2em;
 	}
