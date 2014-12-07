@@ -1406,7 +1406,7 @@
 	
 	.paragraph_wrapper
 	{
-		width: 85%;
+		width: 80%;
 	}
 	
 	#paragraph_wrapper_categories
@@ -1540,7 +1540,7 @@
 
 	/*Responsive resizing WTFTEENY*/
 
-	@media (max-width: 425px) {
+	@media (max-width: 400px) {
 	
 	#menu ul
 	{
