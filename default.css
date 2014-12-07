@@ -1536,3 +1536,22 @@
 	{
 		text-decoration: line-through;
 	}
+
+
+	/*Responsive resizing WTFTEENY*/
+
+	@media (max-width: 425px) {
+	
+	#menu ul
+	{
+		margin-top: 1em;
+		display: inline-block;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 0em;
+		font-size: .6em;
+		float: none;
+	}
+	
+	
+							}
