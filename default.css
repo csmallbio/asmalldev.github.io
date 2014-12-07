@@ -552,7 +552,7 @@
 		text-decoration: underline;
 	}
 	
-	#site_lisence
+	#site_license
 	{
 		float: left;
 		width: 15em;
@@ -583,6 +583,7 @@
 	.nav_col h4
 	{
 		font-weight: bold;
+		text-decoration: underline;
 	}
 	
 /*changed copyright information and id to footer and creative commons*/
@@ -1438,7 +1439,21 @@
 	{
 		height: 75px;
 	}
+	
+	#footer #site_license
+	{
+		margin-left: 0;
+	}
+	
+	#footer #footer_cols .nav_col
+	{
+		margin: .5em;
+	}
+	
 							}
+							
+/*END TEENY*/
+
 	
 	#list_box
 	{
@@ -1482,7 +1497,7 @@
 	{
 		padding-top: 1em;
 	}
-	.attributions_lisence
+	.attributions_license
 	{
 		font-size: .9em;
 		width: 70%;
