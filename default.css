@@ -1125,7 +1125,7 @@
 	
 	#paragraph_wrapper_categories
 	{
-		width: 90%;
+		width: 70%;
 	}
 	
 	#hatman
@@ -1351,7 +1351,7 @@
 		margin-right: auto;
 		margin-left: auto;
 		padding-left: 0em;
-		font-size: 1em;
+		font-size: 1.1em;
 		float: none;
 	}
 	
@@ -1427,7 +1427,7 @@
 	
 	.title2 a .CC_icons
 	{
-		height: 100px;
+		height: 85px;
 		width: auto;
 		display: inline-block;
 		margin-left: auto;
