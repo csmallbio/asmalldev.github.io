@@ -3,42 +3,37 @@
 <head>
 <link rel="icon" type="image/png" href="img/logo.png">
 <meta charset="UTF-8"/>
-<title>Error: 404</title>
+<title>Austin Small</title>
 <meta name="keywords" content="" />
-<meta name="description" content="The 404 page for my personal site." />
+<meta name="description" content="Austin Small's personal site" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Mate' rel='stylesheet' type='text/css'>
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="{{site.url }}/css/default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="normalize.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
 </head>
 	<body>
-		<div id="wrapper_404">
+		<div id="wrapper">
 			<div id="header-wrapper">
 				<div id="header" class="container">
 					<div id="menu">
 							<ul>
-								<li><a href="">Posts</a></li>
-								<li><a href="">Experience</a></li>
-								<li><a href="">Credits</a></li>
-								<li><a href="">About Me</a></li>
+								<li id="posts"><a href="blog/index.html">Posts</a></li>
+								<li id="experience"><a href="">Experience</a></li>
+								<li id="credits"><a href="">Credits</a></li>
+								<li id="about"><a href="index.html">About Me</a></li>
 							</ul>
 					</div>
 				</div>
 			</div>
-			<div class="title2">
-				<h2 class="jump">Error 404<br>Don't Panic</h2>
-				<span class="byline">Oh, dear... your page was not found.</span> 
+
+			<div id="content">
+			{{ content }}
 			</div>
-			<img id="hatman" src="img/hatman.png" title="Oh, dear..." alt="">
-			<div class="paragraph_wrapper">
-				<p>The page associated with the URL above is not found this site. DON'T PANIC. Simply go back to another page and use the navigation to find what you're looking for.</p>
-				<p>In case you like to panic, here's some gibberish error: !error@51934885 from pid 23192</p>
-			</div>
-		<br><br>
-	</div>
-	</div>
-	<div id="footer" class="container">
-					<div id="site_lisence">
+		</div>
+			<div id="footer" class="container">
+					<div id="site_license">
 						<img class="footer_icon" src="img/logo2.png" alt="asmalldev"><img class="footer_icon" src="img/CC_invert.png" alt="Creative Commons"><br> &copy; Austin Small<br><br>
 						<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licensing:</a>
 						<a href="asmalldev.github.io">This Site</a> is licensed under a 
@@ -66,7 +61,6 @@
 						<div class="nav_col">
 							<h4>Help Me</h4>
 								<ul>
-									<li>inspect my code</li>
 									<li>feedback</li>
 								</ul>
 						</div>
@@ -74,3 +68,4 @@
 			</div>
 </body>
 </html>
+

@@ -1,0 +1,12 @@
+# Site settings
+title: asmalldev
+email: asmalldev@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Austin Small's personal site. Welcome!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:4000" # the base hostname & protocol for your site
+twitter_username: asmalldev
+github_username:  asmalldev
+
+# Build settings
+markdown: kramdown

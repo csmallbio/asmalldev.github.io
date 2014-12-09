@@ -507,11 +507,6 @@
 
 /* Content*/
 
-
-	#content
-	{
-	}
-
 	#boxwrapper
 	{
 		border: 1px solid rgba(0,0,0,0.1);
@@ -831,12 +826,13 @@
 	
 /*ALL POSTS PAGES*/
 
-	#articles_wrapper
+	.articles_wrapper
 	{
 		width: 70em;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 2em;
+		padding-bottom: .5em;
 		font-size: 1em;
 		font-family: "Mate", serif;
 		text-align: justify;
@@ -848,61 +844,34 @@
 		-webkit-transition-duration:1s;
 	}
 
-	#top_article_box
+	.articles_box
 	{
 		width: 70em;
-		height: length;
 		border: 1px solid #CCCCCC;
 		border-radius: 4px;
-		float: both;
 		margin-bottom: 1em;
 		background: #F0F0F0;
 		box-shadow: 0px 4px 15px #CCCCCC;
 	}
 
-	#top_article_overview
+	.articles_overview
 	{
-		padding: 2em;
+		padding: 0em 1em 1em 1em;
 	}
 	
-	#left_article_box
-	{
-		width: 34.25em;
-		position: relative;
-		float: left;
-		border: 1px solid #CCCCCC;
-		border-radius: 4px;
-		margin-bottom: 2em;
-		background: #F0F0F0;
-		box-shadow: 0px 4px 15px #CCCCCC;
-	}
 	
-	#right_article_box
-	{
-		width: 34.25em;
-		position: relative;
-		float: right;
-		border: 1px solid #CCCCCC;
-		border-radius: 4px;
-		margin-bottom: 2em;
-		background: #F0F0F0;
-		box-shadow: 0px 4px 15px #CCCCCC;
-	}
-	
-	.article_overview
-	{
-		padding: 2em;
-		border-bottom: 1px dashed #CCCCCC;
-	}
-	
-	.article_overview_header
+	.articles_overview_header
 	{
 		display: block;
-		text-align: center;
 		padding-bottom: .5em;
 	}
 
-	.article_overview_title
+	.articles_overview_titles
+	{
+		text-align: center;
+	}
+	
+	.articles_overview_title
 	{
 		font-family: "Lato", sans-serif;
 		text-decoration: underline;
@@ -910,35 +879,17 @@
 		color: #2B3F48;
 	}
 	
-	.article_overview_body
-	{
-		font-size: 1.05em;
-	}
-	
-	.top_article_image
-	{
-		display: block;
-		margin-right: auto;
-		margin-left: auto;
-		padding: 1em;
-		height: auto;
-		width: 35em;;
-	}
-	
-	.side_article_image
-	{
-		display: block;
-		margin-right: auto;
-		margin-left: auto;
-		padding: 1em;
-		width: 25em;
-		height: auto;
-	}
-	
 	.post_info
 	{
 		font-size: .8em;
-		
+	}
+	
+	
+	.articles_overview_body
+	{
+		font-size: 1.05em;
+		margin-top: 2em;
+		line-height: 1.5em;
 	}
 	
 	.tags
@@ -948,11 +899,41 @@
 		opacity: .7;
 	}
 	
+	#content
+	{
+		margin-bottom: 18em;
+		padding-bottom: 1em;
+	}
+	
+	#archive_box
+	{
+		width: 85%;
+		text-align: center;
+		border-width: 1px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 3em;
+		padding-top: 1em;
+		border: 1px solid #CCCCCC;
+		border-radius: 4px;
+		margin-bottom: 2em;
+	}
+	
+	#archive h3
+	{
+		font-size: 1.4em;
+	}
+	
+	#archive ul li a
+	{
+	
+	}
+	
 /*Responsive resizing SMALL*/
 
 	@media (max-width: 959.985px) {
 	
-	#articles_wrapper
+	.articles_wrapper
 	{
 		width: 800px;
 		margin-left: auto;
@@ -963,7 +944,7 @@
 		text-align: justify;
 	}
 
-	#articles_wrapper #top_article_box
+	.articles_wrapper .articles_box
 	{
 		width: 800px;
 		border: 1px solid #CCCCCC;
@@ -975,12 +956,12 @@
 		margin-right: auto;
 	}
 
-	#top_article_overview
+	.articles_overview_header
 	{
 		padding: 2em;
 	}
 	
-	#articles_wrapper #left_article_box
+	.articles_wrapper .articles_overview
 	{
 		min-width: 800px;
 		border: 1px solid #CCCCCC;
@@ -992,32 +973,20 @@
 		margin-right: auto;
 	}
 	
-	#articles_wrapper #right_article_box
-	{
-		min-width: 800px;
-		border: 1px solid #CCCCCC;
-		border-radius: 4px;
-		margin-bottom: 2em;
-		background: #F0F0F0;
-		box-shadow: 0px 4px 15px #CCCCCC;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.article_overview
+	.articles_overview_header
 	{
 		padding: 2em;
 		border-bottom: 1px dashed #CCCCCC;
 	}
 	
-	.article_overview_header
+	.post-header_header
 	{
 		display: block;
 		text-align: center;
 		padding-bottom: .5em;
 	}
 
-	.article_overview_title
+	.post-header_title
 	{
 		font-family: "Lato", sans-serif;
 		text-decoration: underline;
@@ -1025,7 +994,7 @@
 		color: #2B3F48;
 	}
 	
-	.article_overview_body
+	.post-header_body
 	{
 		
 	}
@@ -1154,7 +1123,7 @@
 
 @media (max-width: 1250px) {
 	
-	#articles_wrapper
+	.articles_wrapper
 	{
 		width: 50em;
 		margin-left: auto;
@@ -1165,7 +1134,7 @@
 		text-align: justify;
 	}
 
-	#top_article_box
+	.articles_box
 	{
 		width: 50em;
 		border: 1px solid #CCCCCC;
@@ -1176,59 +1145,9 @@
 		box-shadow: 0px 4px 15px #CCCCCC;
 	}
 
-	#top_article_overview
+	.articles_overview_header
 	{
 		padding: 2em;
-	}
-	
-	#left_article_box
-	{
-		width: 24.25em;
-		position: relative;
-		float: left;
-		border: 1px solid #CCCCCC;
-		border-radius: 4px;
-		margin-bottom: 2em;
-		background: #F0F0F0;
-		box-shadow: 0px 4px 15px #CCCCCC;
-	}
-	
-	#right_article_box
-	{
-		width: 24.25em;
-		position: relative;
-		float: right;
-		border: 1px solid #CCCCCC;
-		border-radius: 4px;
-		margin-bottom: 2em;
-		background: #F0F0F0;
-		box-shadow: 0px 4px 15px #CCCCCC;
-	}
-	
-	.article_overview
-	{
-		padding: 2em;
-		border-bottom: 1px dashed #CCCCCC;
-	}
-	
-	.article_overview_header
-	{
-		display: block;
-		text-align: center;
-		padding-bottom: .5em;
-	}
-
-	.article_overview_title
-	{
-		font-family: "Lato", sans-serif;
-		text-decoration: underline;
-		font-size: 1.1em;
-		color: #2B3F48;
-	}
-	
-	.article_overview_body
-	{
-		
 	}
 	
 	.post_info
@@ -1237,24 +1156,13 @@
 		
 	}
 	
-	.side_article_image
-	{
-		display: block;
-		margin-right: auto;
-		margin-left: auto;
-		padding: 1em;
-		width: 18em;
-		height: auto;
-	}
-	
-	
 							}
 							
 /*Responsive resizing of article boxes TEENY*/
 	
 	@media (max-width: 815px) {
 	
-	#articles_wrapper
+	.articles_wrapper
 	{
 		width: 35em;
 		margin-left: auto;
@@ -1265,7 +1173,7 @@
 		text-align: justify;
 	}
 
-	#articles_wrapper #top_article_box
+	.articles_wrapper .articles_box
 	{
 		width: 95%;
 		border: 1px solid #CCCCCC;
@@ -1277,12 +1185,12 @@
 		margin-left: 2.5%;
 	}
 
-	#top_article_overview
+	.articles_overview_header
 	{
 		padding: 2em;
 	}
 	
-	#articles_wrapper #left_article_box
+	.articles_wrapper .post
 	{
 		min-width: 95%;
 		border: 1px solid #CCCCCC;
@@ -1294,7 +1202,7 @@
 		margin-right: 2.5%;
 	}
 	
-	#articles_wrapper #right_article_box
+	.articles_wrapper #right_article_box
 	{
 		min-width: 95%;
 		border: 1px solid #CCCCCC;
@@ -1306,20 +1214,20 @@
 		margin-left: 2.5%;
 	}
 	
-	.article_overview
+	.post-header
 	{
 		padding: 2em;
 		border-bottom: 1px dashed #CCCCCC;
 	}
 	
-	.article_overview_header
+	.post-header_header
 	{
 		display: block;
 		text-align: center;
 		padding-bottom: .5em;
 	}
 
-	.article_overview_title
+	.post-header_title
 	{
 		font-family: "Lato", sans-serif;
 		text-decoration: underline;
@@ -1327,7 +1235,7 @@
 		color: #2B3F48;
 	}
 	
-	.article_overview_body
+	.post-header_body
 	{
 		
 	}

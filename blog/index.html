@@ -1,0 +1,44 @@
+---
+layout: master
+title: All Posts
+full_posts: 6
+---
+
+<style>
+{% include posts_select.css %}
+</style>
+
+<div id="posts_banner">
+	<span class="byline">welcome to the blog section</span>
+</div>
+ 
+{% for post in site.posts %}
+{% if forloop.index < page.full_posts %}
+<div class="articles_wrapper">
+	<div class="articles_box">
+		<div class="articles_overview">
+			<div class="articles_overview_header">
+				<div class="articles_overview_titles">
+				<span class="articles_overview_title"><a href="{{ post.url }}"><h3>{{ post.title }}</h3></a></span>
+				<span class="post_info">by {{post.author}} on {{post.date}} - read in {{post.read_time}}</span>
+				</div>
+					<div class="articles_overview_body">{{post.article_overview}}<br><br>
+						<span class="read_on"><a href="{{post.url}}">Read More...</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+{% else %}
+{% if forloop.index == page.full_posts %}
+<div id="archive_box">
+	<div id="archive">
+		<h3>Older Posts:</h3>
+{% endif %}
+			<ul>
+				<li><a href='{{ post.url }}'>{{ post.title }}</a> -- {{ post.date | date_to_string }}</li>
+			</ul>
+{% endif %}
+{% endfor %}
+	</div>
+</div>

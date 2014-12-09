@@ -1,34 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<link rel="icon" type="image/png" href="img/logo.png">
-<meta charset="UTF-8"/>
-<title>Austin Small</title>
-<meta name="keywords" content="" />
-<meta name="description" content="Austin Small's personal site" />
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Mate' rel='stylesheet' type='text/css'>
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="normalize.css" rel="stylesheet" type="text/css" media="all" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
-</head>
-	<body>
-		<div id="wrapper">
-			<div id="header-wrapper">
-				<div id="header" class="container">
-					<div id="menu">
-							<ul>
-								<li><a href="">Posts</a></li>
-								<li><a href="">Experience</a></li>
-								<li><a href="">Credits</a></li>
-								<li class="selected"><a href="">About Me</a></li>
-							</ul>
-					</div>
-				</div>
-			</div>
-			<div id="banner">
+---
+layout: master
+title: Austin Small
+---
+
+<style>
+{% include about_select.css %}
+</style>
+
+
+<div id="banner">
 				<div class="container">
 					<div id="profile_title">
 						<h2 class="reduce">
@@ -123,41 +103,3 @@
 </script>
 				</div>
 			</div>
-		</div>
-			<div id="footer" class="container">
-					<div id="site_license">
-						<img class="footer_icon" src="img/logo2.png" alt="asmalldev"><img class="footer_icon" src="img/CC_invert.png" alt="Creative Commons"><br> &copy; Austin Small<br><br>
-						<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licensing:</a>
-						<a href="asmalldev.github.io">This Site</a> is licensed under a 
-						<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
-					</div>
-					<div id="footer_cols">
-						<div class="nav_col">
-							<h4>Contact</h4>
-								<ul>
-									<li>github</li>
-									<li>email</li>
-									<li>twitter</li>
-									<li>google plus</li>
-								</ul>
-						</div>
-						<div class="nav_col">
-							<h4>Navigation</h4>
-								<ul>
-									<li>Posts</li>
-									<li>Experience</li>
-									<li>Credits</li>
-									<li>About Me</li>
-								</ul>
-						</div>
-						<div class="nav_col">
-							<h4>Help Me</h4>
-								<ul>
-									<li>feedback</li>
-								</ul>
-						</div>
-					</div>
-			</div>
-</body>
-</html>
-

@@ -1,0 +1,31 @@
+#credits
+	{
+		font-weight: bold;
+		border-top-style: solid!important;
+		border-top-color: #1793d1!important;
+		border-bottom-style: solid!important;
+		border-bottom-color: #1793d1!important;
+		border-width: 2px;
+	}
+	
+	
+@media (max-width: 959.985px) {
+	
+#credits
+	{
+		border-bottom: solid 1px;
+		border-color: white;
+		
+	}
+	
+							}
+							
+								
+@media (max-width: 815px) {
+
+#credits
+	{
+		box-shadow: 0px 4px 15px #191919;
+	}
+	
+						}
