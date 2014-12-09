@@ -941,6 +941,12 @@
 	{
 		width: 95%;
 	}
+	
+	.articles_box .articles_overview .articles_overview_header
+	{
+		padding-left:0;
+		padding-right: 0;
+	}
 							}
 /*Responsive resizing SMALL*/
 
