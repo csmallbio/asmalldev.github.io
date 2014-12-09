@@ -855,7 +855,7 @@
 
 	.articles_overview
 	{
-		padding: 0em 1em 1em 1em;
+		padding: 0em 1em 0em 1em;
 	}
 	
 	
@@ -928,6 +928,20 @@
 	
 	}
 	
+	#posts_wrapper
+	{
+		margin-top: 2em;
+	}
+	
+/*Responsive (percentage width) extra-tiny for post page*/
+
+	@media (max-width: 575px) {
+	
+	#posts_wrapper .articles_wrapper
+	{
+		width: 95%;
+	}
+							}
 /*Responsive resizing SMALL*/
 
 	@media (max-width: 959.985px) {
@@ -937,7 +951,7 @@
 		width: 800px;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 2em;
+		margin-top: 0;
 		font-size: 1em;
 		font-family: "Mate", serif;
 		text-align: justify;
@@ -962,10 +976,8 @@
 	
 	.articles_wrapper .articles_overview
 	{
-		min-width: 800px;
 		border: 1px solid #CCCCCC;
 		border-radius: 4px;
-		margin-bottom: 1em;
 		background: #F0F0F0;
 		box-shadow: 0px 4px 15px #CCCCCC;
 		margin-left: auto;
@@ -974,28 +986,7 @@
 	
 	.articles_overview_header
 	{
-		padding: 2em;
-		border-bottom: 1px dashed #CCCCCC;
-	}
 	
-	.post-header_header
-	{
-		display: block;
-		text-align: center;
-		padding-bottom: .5em;
-	}
-
-	.post-header_title
-	{
-		font-family: "Lato", sans-serif;
-		text-decoration: underline;
-		font-size: 1.4em;
-		color: #2B3F48;
-	}
-	
-	.post-header_body
-	{
-		
 	}
 	
 	.post_info
@@ -1127,7 +1118,7 @@
 		width: 50em;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 2em;
+		margin-top: 0;
 		font-size: 1em;
 		font-family: "Mate", serif;
 		text-align: justify;
@@ -1166,7 +1157,7 @@
 		width: 35em;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 2em;
+		margin-top: 0;
 		font-size: 1em;
 		font-family: "Mate", serif;
 		text-align: justify;
@@ -1211,32 +1202,6 @@
 		box-shadow: 0px 4px 15px #CCCCCC;
 		margin-right: 2.5%;
 		margin-left: 2.5%;
-	}
-	
-	.post-header
-	{
-		padding: 2em;
-		border-bottom: 1px dashed #CCCCCC;
-	}
-	
-	.post-header_header
-	{
-		display: block;
-		text-align: center;
-		padding-bottom: .5em;
-	}
-
-	.post-header_title
-	{
-		font-family: "Lato", sans-serif;
-		text-decoration: underline;
-		font-size: 1.1em;
-		color: #2B3F48;
-	}
-	
-	.post-header_body
-	{
-		
 	}
 	
 	.post_info

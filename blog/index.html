@@ -11,7 +11,7 @@ full_posts: 6
 <div id="posts_banner">
 	<span class="byline">welcome to the blog section</span>
 </div>
- 
+<div id="posts_wrapper"> 
 {% for post in site.posts %}
 {% if forloop.index < page.full_posts %}
 <div class="articles_wrapper">
@@ -41,4 +41,5 @@ full_posts: 6
 {% endif %}
 {% endfor %}
 	</div>
+</div>
 </div>
