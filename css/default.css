@@ -189,13 +189,11 @@
 		white-space: nowrap;
 		font-size: medium;	
 	}
-/*changed all buttons' border-radius to make slightly rounded corners above*/
 
 	.button:hover
 	{
 		background: #2B3F48;
 	}
-/*changed page buttons' hover color above*/
 	
 	.button:before
 	{
@@ -274,6 +272,8 @@
 		position: relative;
 		box-shadow: 0px 4px 15px #181818;
 		background: #FFF;
+		margin-bottom: 17.5em;
+		padding-bottom: 2em;
 	}
 
 	#wrapper_404
@@ -433,12 +433,12 @@
 	#banner
 	{
 		overflow: hidden;
-		padding: 2em 0em 2em 0em;
 		background: #202020;
 		background-size: cover;
 		text-align: center;
 		color: rgba(255,255,255,.8);
-		
+		padding-top: 1em;
+		padding-bottom: 1em;		
 	}
 
 	#banner .title
@@ -581,8 +581,6 @@
 		font-weight: bold;
 		text-decoration: underline;
 	}
-	
-/*changed copyright information and id to footer and creative commons*/
 
 /*Licensing*/
 
@@ -791,6 +789,34 @@
 		text-decoration: underline;
 	}
 
+	#cv
+	{
+		border: 1px solid rgba(0,0,0,0.1);
+		border-radius: 8px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+		padding: .5em;
+		margin-top: 2em;
+		padding-left: .5em;
+		padding-right: .5em;
+	}
+	
+	#cv h2
+	{
+		text-decoration: underline;
+	}
+	
+	#cv h4
+	{
+		margin-bottom: 0;
+	}
+	
+	#cv p
+	{
+		font-size: 1.1em;
+	}
+	
 	@media (max-width: 1162px) {
 		
 		.jump
@@ -901,8 +927,6 @@
 	
 	#content
 	{
-		margin-bottom: 265px;
-		padding-bottom: 3em;
 	}
 	
 	#archive_box
