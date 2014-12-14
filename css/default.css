@@ -800,6 +800,9 @@
 		margin-top: 2em;
 		padding-left: .5em;
 		padding-right: .5em;
+		transition-property: width;
+		transition-duration: .5s;
+		
 	}
 	
 	#cv h2
@@ -1184,7 +1187,7 @@
 							
 /*Responsive resizing of article boxes TEENY*/
 	
-@media handheld, screen and (max-width: 815px) {
+@media (max-width: 815px) {
 	
 	.articles_wrapper
 	{
