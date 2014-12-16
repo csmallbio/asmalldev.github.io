@@ -1379,7 +1379,7 @@
 	
 	.container .credit_box
 	{
-		height: 2.5em;
+		height: 4.5em;
 	}
 	
 	.credit_right .credit_txt
@@ -1477,6 +1477,9 @@
 		width: 45%;
 		margin-left: auto;
 		margin-right: auto;
+		height: 8em;
+		padding-top: 2em;
+		padding-bottom: 1em;
 	}
 	
 	.credit_box_right
