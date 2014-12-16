@@ -214,6 +214,9 @@
 	{
 		padding-bottom: 2.5em;
 		text-align: center;
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	.title h2
@@ -1374,6 +1377,24 @@
 		width: 90%;
 	}
 	
+	#attributions_box .credit_box
+	{
+		height: 7em;
+	}
+	
+	.credit_right .credit_txt
+	{
+		text-align: center;
+		font-size: 1.9em;
+		text-decoration: none;
+	}
+	
+	.credit_left .credit_img img
+	{
+		height: 90px;
+		display: inline;
+	}
+
 							}
 							
 /*END TEENY*/
@@ -1406,6 +1427,8 @@
 		font-size: 1.7em;
 	}
 	
+/* CREDITS PAGE */
+
 	#attributions_box ul
 	{
 		width: 70%;
@@ -1439,11 +1462,6 @@
 		color: #7fc242;
 	}
 	
-	.gimp_orange
-	{
-		color: #f57900;
-	}
-	
 	.inkscape_gray
 	{
 		color: #333333;
@@ -1453,6 +1471,61 @@
 	{
 		color: #fe9b0e;
 	}
+	
+	.credit_box
+	{
+		width: 45%;
+		height: 10em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.credit_box_right
+	{
+		float: right;
+		width: 50%;
+	}
+	
+	.credit_right
+	{
+	padding-top: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	.credit_txt
+	{
+		text-align: center;
+		font-size: 4em;
+		text-decoration: none;
+		transition-property: font-size;
+		transition-duration: 1s;
+	}
+	
+	.credit_box_left
+	{
+		float: left;
+		width: 50%;
+	}
+	
+	.credit_img img
+	{
+		height: 150px;
+		display: inline;
+		transition-property: height;
+		transition-duration: 1s;
+	}
+	
+	#credit_byline
+	{
+		font-size: 1.5em;
+		color: #6F6F6F;
+		margin-bottom: .5em;
+		width: 90%;
+	}
+	
+	
+/* END CREDITS */
 
 	.CC_icons
 	{
@@ -1492,6 +1565,18 @@
 		float: none;
 	}
 	
+	.credit_box_right .credit_right .credit_txt
+	{
+		text-align: center;
+		font-size: 1.2em;
+		text-decoration: none;
+	}
+		
+	.credit_box_left .credit_left .credit_img img
+	{
+		height: 70px;
+		display: inline-block;
+	}
 	
 							}
 
