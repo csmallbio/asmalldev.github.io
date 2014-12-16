@@ -1377,9 +1377,9 @@
 		width: 90%;
 	}
 	
-	#attributions_box .credit_box
+	.container .credit_box
 	{
-	
+		height: 2.5em;
 	}
 	
 	.credit_right .credit_txt
