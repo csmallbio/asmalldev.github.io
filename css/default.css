@@ -747,6 +747,9 @@
 	#subtitle
 	{
 		font-size: 1.5em;
+		padding-left: 5.5em;
+		transition-property:padding;
+		transition-duration:1s;
 	}
 
 	#left_pane
@@ -1414,6 +1417,13 @@
 		opacity:0;
 		transition:visibility 0s linear 0.5s,opacity 0.5s linear;
 	}
+	
+	#profile_title #subtitle
+	{
+		font-size: 1.5em;
+		padding-left: 0;
+	}
+
 
 
 							}
