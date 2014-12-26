@@ -1647,11 +1647,10 @@
 
 	.experience_img
 	{
+		border-radius: 100px;
 		display: block;
-		float: left;
-		height: 85px;
-		margin-left: -7em;
-		margin-top: -.5em;
+		height: 50px;
+		margin: 15px;
 		transition-property:width,height,margin,padding,border,opacity,display;
 		transition-duration:.99s;
 	}
