@@ -1669,6 +1669,8 @@
 	
 	#footer #site_license
 	{
+		float: none;
+		display: inline-block;
 		margin-left: auto;
 		margin-right: auto;
 	}
