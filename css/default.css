@@ -942,7 +942,7 @@
 	
 	.center_imgs
 	{
-		width: 375px;
+		width: 320px;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 2em;
@@ -951,7 +951,9 @@
 	
 	.post_img
 	{
-		height: 100px;
+		height: 90px;
+		transition-property: height;
+		transition-duration: 1s;
 	}
 	
 	.tags
@@ -1277,6 +1279,20 @@
 	{
 		font-size: .8em;
 		
+	}
+	
+	.center_imgs
+	{
+		width: 240px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	
+	.post_img
+	{
+		height: 70px;
 	}
 	
 	.articles_overview_body
@@ -1628,6 +1644,20 @@
 	{
 		height: 70px;
 		display: inline-block;
+	}
+	
+	.center_imgs
+	{
+		width: 190px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	
+	.post_img
+	{
+		height: 40px;
 	}
 	
 							}
