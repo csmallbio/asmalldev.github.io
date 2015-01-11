@@ -1409,7 +1409,7 @@
 	
 	#footer #footer_cols .nav_col
 	{
-		margin: .5em;
+		margin: .4em;
 	}
 
 	#content .post
@@ -1660,6 +1660,12 @@
 	.post_img
 	{
 		height: 65px;
+	}
+	
+	#footer #footer_cols .nav_col
+	{
+		margin: .4em;
+		height: 215px
 	}
 	
 							}
