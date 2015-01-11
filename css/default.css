@@ -1664,8 +1664,13 @@
 	
 	#footer #footer_cols .nav_col
 	{
-		margin: .4em;
-		height: 215px
+		display: none;
+	}
+	
+	#footer #site_license
+	{
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 							}
