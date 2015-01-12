@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello, World: HTML, CSS, and Jekyll (Oh Myyy)"
+title:  "Hello, World:<br>HTML, CSS, and Jekyll (Oh Myyy)"
 date:   2015-1-10 14:02
 author: "asmalldev"
 read_time: "5 minutes"
